@@ -753,6 +753,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eded7eab70c628541b75c02c74ca9d86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ammor: 10
+  _offensePower: 5
   _healthImage: {fileID: 1536681256}
   _behaviorImage: {fileID: 1670608631}
   _text: {fileID: 1378224330}
@@ -801,7 +803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90bb9ef305bfa2a40aa282ba7cf66092, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DeadEvent:
+  Dead:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &1349823884
@@ -914,6 +916,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98239676568bc7a4d98680009e050785, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ammor: 1
+  _offensePower: 15
   _healthImage: {fileID: 1361601552}
   _behaviorImage: {fileID: 1875179395}
   _text: {fileID: 575940115}
